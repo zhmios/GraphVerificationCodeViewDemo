@@ -181,10 +181,7 @@
     
 }
 
-- (void)setTextMinEdge:(CGFloat)textMinEdge{
-    _textMinEdge = textMinEdge;
-    
-}
+
 
 - (void)drawRect:(CGRect)rect{
     [super drawRect:rect];
