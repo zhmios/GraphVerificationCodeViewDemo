@@ -132,7 +132,6 @@
     if (count > 0) {
        self.count = count;
     }
-   
     [self makeDataSource];
     self.backgroundColor = NNRandomColor;
     self.userInteractionEnabled = YES;
