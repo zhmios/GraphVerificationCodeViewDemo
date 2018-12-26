@@ -9,7 +9,7 @@
 
 GraphVerificationCodeView 是使用core graphics 实现的图形验证码的自定义的view
 
-![login](https://github.com/zhmios/GraphVerificationCodeViewDemo/raw/master/screenshots/GraphVerificationCode.png)
+![login](https://github.com/zhmios/GraphVerificationCodeViewDemo/raw/master/screenshots/GraphVerificationCodeView.png)
 
 ## Example
 
