@@ -1,0 +1,6 @@
+framework module GraphVerificationCodeView {
+  umbrella header "GraphVerificationCodeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

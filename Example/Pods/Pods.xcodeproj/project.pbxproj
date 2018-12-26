@@ -1,0 +1,1046 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */; };
+		0D5E847B5619856E1C22A74EC898F69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		147BF0A2E8A06D32C4BBB4CB440C385F /* Pods-GraphVerificationCodeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA809C7E849A3C156E0BF6A1FCD0759 /* Pods-GraphVerificationCodeView_Tests-dummy.m */; };
+		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
+		1F5CD6D325414723B66E0DAE55E75501 /* Pods-GraphVerificationCodeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F95E66DB3EE61A52DD34FDE15A52BC28 /* Pods-GraphVerificationCodeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50CB6421EC2C8A4DB64419C2BDCB9F01 /* Pods-GraphVerificationCodeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BA22C51BB4624BBC135F2833FAAED9 /* Pods-GraphVerificationCodeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50F578C46BDE447D1E8F5C102CC6ABAA /* GraphVerificationCodeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA205D039C35E932D1B565A568998F3 /* GraphVerificationCodeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F530A776A78B92EF5E9C7C59027469 /* GraphVerificationCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C7D48E1527DB016A707069C16AEE692 /* GraphVerificationCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620002D55F8D093DFB3E88E2CF8DCC60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */; };
+		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
+		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		85D171420BA71075E7756BB437991770 /* GraphVerificationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B15C8B48136FD06D70F1F96A2D62D254 /* GraphVerificationCodeView.m */; };
+		8AA4C0159FA2A77407DAAC05F6B5D357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */; };
+		AAFDA2B8C946226C7555B1FC969ECCCB /* GraphVerificationCodeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7150A473F7556CA9107C9C6983BEDE95 /* GraphVerificationCodeView-dummy.m */; };
+		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D70C82AFDA7B79CC4A86E6A5AD2834FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
+		E3BDB73B6ADA248E44542CE05805D6A0 /* Pods-GraphVerificationCodeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 835C75B10F00257FBF62662CA6AAE8E2 /* Pods-GraphVerificationCodeView_Example-dummy.m */; };
+		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
+		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		ED98B9769F5F730C201CBAAE78B779D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6146D23339D3A9ED2865FAC91E293B34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98094DB2F6FAACFF27133FCB66C959E6;
+			remoteInfo = "Pods-GraphVerificationCodeView_Example";
+		};
+		A6F570A86BD2C872C9AC03DD062547C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018A490D504A5A2667162A7001B12FA3;
+			remoteInfo = GraphVerificationCodeView;
+		};
+		AE36A58FB0BCE0E06ED2CD9CAA7E7FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9208F82521C84CC962FB475DC38D3371;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F4A68E5131A596C4DC2BB9C132739 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		096B9D29FB298ACBAF044CDB3F79CD2D /* Pods-GraphVerificationCodeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphVerificationCodeView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		1B39460F9711CE67A3A25F70AE94BDEA /* GraphVerificationCodeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GraphVerificationCodeView.framework; path = GraphVerificationCodeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CB8212B24FA8589E2021216FF120FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A6C9BAB04D5BEC3F42A3BE196CDB9E1 /* Pods_GraphVerificationCodeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GraphVerificationCodeView_Tests.framework; path = "Pods-GraphVerificationCodeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB24FAB9E1930E49DE2E81C24AE012C /* Pods-GraphVerificationCodeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphVerificationCodeView_Tests-resources.sh"; sourceTree = "<group>"; };
+		2ADCB48346B6FBAA27A6092BCB1FE205 /* Pods-GraphVerificationCodeView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphVerificationCodeView_Example-resources.sh"; sourceTree = "<group>"; };
+		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		32B46B46308A6F1DE445ADDC931FCB8A /* GraphVerificationCodeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphVerificationCodeView-prefix.pch"; sourceTree = "<group>"; };
+		34CA87968B46050D61DCF6D0C6C1E9AA /* Pods-GraphVerificationCodeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphVerificationCodeView_Example.modulemap"; sourceTree = "<group>"; };
+		37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		3A87801120E687A51E6EF28187177B1B /* Pods-GraphVerificationCodeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GraphVerificationCodeView_Tests.modulemap"; sourceTree = "<group>"; };
+		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3D4D0F9254D5E27279DA634837639419 /* Pods-GraphVerificationCodeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphVerificationCodeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		471616AACEC969364C426AC81A33EDD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4AA809C7E849A3C156E0BF6A1FCD0759 /* Pods-GraphVerificationCodeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphVerificationCodeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50789B19F1C7CC5648086441BAA0BF0F /* Pods-GraphVerificationCodeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphVerificationCodeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		63AF67B954AAEF7E4260109AF1EF90B0 /* Pods-GraphVerificationCodeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphVerificationCodeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		64CB609BAF353CF87DA833A4D105D7AB /* Pods-GraphVerificationCodeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GraphVerificationCodeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705D3F5668A49BFCDFBBC06B69ABF7A2 /* GraphVerificationCodeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GraphVerificationCodeView.modulemap; sourceTree = "<group>"; };
+		7150A473F7556CA9107C9C6983BEDE95 /* GraphVerificationCodeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GraphVerificationCodeView-dummy.m"; sourceTree = "<group>"; };
+		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		7C7D48E1527DB016A707069C16AEE692 /* GraphVerificationCodeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GraphVerificationCodeView.h; path = GraphVerificationCodeView/Classes/GraphVerificationCodeView.h; sourceTree = "<group>"; };
+		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		835C75B10F00257FBF62662CA6AAE8E2 /* Pods-GraphVerificationCodeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GraphVerificationCodeView_Example-dummy.m"; sourceTree = "<group>"; };
+		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A26A372AC53ADAB08FBC0DC939607D6B /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A544BF181D4C64C25AB93EEDDC04D1C3 /* Pods-GraphVerificationCodeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphVerificationCodeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD46CF73BE5B7C25CEC3AAED00F261D7 /* Pods-GraphVerificationCodeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphVerificationCodeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B15C8B48136FD06D70F1F96A2D62D254 /* GraphVerificationCodeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GraphVerificationCodeView.m; path = GraphVerificationCodeView/Classes/GraphVerificationCodeView.m; sourceTree = "<group>"; };
+		B3A30EC31FB80636672C6B8F672957A9 /* Pods-GraphVerificationCodeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GraphVerificationCodeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B7BA22C51BB4624BBC135F2833FAAED9 /* Pods-GraphVerificationCodeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphVerificationCodeView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		BE04579F2A3971BF5ED3D51BCA611091 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF1D2A2782CD0ED631457DB9ECE0D335 /* GraphVerificationCodeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GraphVerificationCodeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CAA205D039C35E932D1B565A568998F3 /* GraphVerificationCodeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GraphVerificationCodeView-umbrella.h"; sourceTree = "<group>"; };
+		D0DC97DCCAFEE62BBE0A438613348F01 /* Pods-GraphVerificationCodeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GraphVerificationCodeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D67562E2DEB2900A51229A9172A1C3B8 /* GraphVerificationCodeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GraphVerificationCodeView.xcconfig; sourceTree = "<group>"; };
+		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		DE1992F04911B0A983352411DDB1C97B /* Pods_GraphVerificationCodeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GraphVerificationCodeView_Example.framework; path = "Pods-GraphVerificationCodeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7399169A203A4BEB00ED56CF37CD7ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95E66DB3EE61A52DD34FDE15A52BC28 /* Pods-GraphVerificationCodeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GraphVerificationCodeView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FCC639821903AAED0C1E183D5D7966BF /* Pods-GraphVerificationCodeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GraphVerificationCodeView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04555F40152B335B5B0D26D0AD612474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA4C0159FA2A77407DAAC05F6B5D357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061115E6B83379DE2460027BA718D706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED98B9769F5F730C201CBAAE78B779D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A086085916D88E8F989A2FD78DFDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5E847B5619856E1C22A74EC898F69C /* Foundation.framework in Frameworks */,
+				0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */,
+				8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */,
+				620002D55F8D093DFB3E88E2CF8DCC60 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F16AA2F59B7AC85C645C2184564615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70C82AFDA7B79CC4A86E6A5AD2834FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C4DC0899F212CED2983C052745E867B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32ACD63DC014EA1893A71EF4763126BC /* GraphVerificationCodeView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E6A3533BFFC5453A29188F8955E61A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				F35791481CAFDD8E7715AE1B44687328 /* Core */,
+				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
+				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		283425CBEA350458782DB42FFC865039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26A372AC53ADAB08FBC0DC939607D6B /* FBSnapshotTestCase.framework */,
+				1B39460F9711CE67A3A25F70AE94BDEA /* GraphVerificationCodeView.framework */,
+				DE1992F04911B0A983352411DDB1C97B /* Pods_GraphVerificationCodeView_Example.framework */,
+				2A6C9BAB04D5BEC3F42A3BE196CDB9E1 /* Pods_GraphVerificationCodeView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
+				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
+				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
+				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
+				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
+				67E276593855381568F725E69496F29C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		32ACD63DC014EA1893A71EF4763126BC /* GraphVerificationCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				7C7D48E1527DB016A707069C16AEE692 /* GraphVerificationCodeView.h */,
+				B15C8B48136FD06D70F1F96A2D62D254 /* GraphVerificationCodeView.m */,
+				7E64422DCE01453FCB70C94783225797 /* Pod */,
+				F02FE8C8703BBA442A29EBDF51691925 /* Support Files */,
+			);
+			name = GraphVerificationCodeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		42602BDE4A7327C29D56DB55E01C5558 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AF4D2E8D7F37CA3C84592F8CA05E881 /* Pods-GraphVerificationCodeView_Example */,
+				657D2C08A18055E42FDBD802CA86DCD0 /* Pods-GraphVerificationCodeView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		657D2C08A18055E42FDBD802CA86DCD0 /* Pods-GraphVerificationCodeView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				471616AACEC969364C426AC81A33EDD9 /* Info.plist */,
+				3A87801120E687A51E6EF28187177B1B /* Pods-GraphVerificationCodeView_Tests.modulemap */,
+				A544BF181D4C64C25AB93EEDDC04D1C3 /* Pods-GraphVerificationCodeView_Tests-acknowledgements.markdown */,
+				50789B19F1C7CC5648086441BAA0BF0F /* Pods-GraphVerificationCodeView_Tests-acknowledgements.plist */,
+				4AA809C7E849A3C156E0BF6A1FCD0759 /* Pods-GraphVerificationCodeView_Tests-dummy.m */,
+				B3A30EC31FB80636672C6B8F672957A9 /* Pods-GraphVerificationCodeView_Tests-frameworks.sh */,
+				2AB24FAB9E1930E49DE2E81C24AE012C /* Pods-GraphVerificationCodeView_Tests-resources.sh */,
+				F95E66DB3EE61A52DD34FDE15A52BC28 /* Pods-GraphVerificationCodeView_Tests-umbrella.h */,
+				63AF67B954AAEF7E4260109AF1EF90B0 /* Pods-GraphVerificationCodeView_Tests.debug.xcconfig */,
+				AD46CF73BE5B7C25CEC3AAED00F261D7 /* Pods-GraphVerificationCodeView_Tests.release.xcconfig */,
+			);
+			name = "Pods-GraphVerificationCodeView_Tests";
+			path = "Target Support Files/Pods-GraphVerificationCodeView_Tests";
+			sourceTree = "<group>";
+		};
+		77E6A3533BFFC5453A29188F8955E61A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */,
+				C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */,
+				37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */,
+				4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AF4D2E8D7F37CA3C84592F8CA05E881 /* Pods-GraphVerificationCodeView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				003F4A68E5131A596C4DC2BB9C132739 /* Info.plist */,
+				34CA87968B46050D61DCF6D0C6C1E9AA /* Pods-GraphVerificationCodeView_Example.modulemap */,
+				D0DC97DCCAFEE62BBE0A438613348F01 /* Pods-GraphVerificationCodeView_Example-acknowledgements.markdown */,
+				64CB609BAF353CF87DA833A4D105D7AB /* Pods-GraphVerificationCodeView_Example-acknowledgements.plist */,
+				835C75B10F00257FBF62662CA6AAE8E2 /* Pods-GraphVerificationCodeView_Example-dummy.m */,
+				096B9D29FB298ACBAF044CDB3F79CD2D /* Pods-GraphVerificationCodeView_Example-frameworks.sh */,
+				2ADCB48346B6FBAA27A6092BCB1FE205 /* Pods-GraphVerificationCodeView_Example-resources.sh */,
+				B7BA22C51BB4624BBC135F2833FAAED9 /* Pods-GraphVerificationCodeView_Example-umbrella.h */,
+				3D4D0F9254D5E27279DA634837639419 /* Pods-GraphVerificationCodeView_Example.debug.xcconfig */,
+				FCC639821903AAED0C1E183D5D7966BF /* Pods-GraphVerificationCodeView_Example.release.xcconfig */,
+			);
+			name = "Pods-GraphVerificationCodeView_Example";
+			path = "Target Support Files/Pods-GraphVerificationCodeView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0C4DC0899F212CED2983C052745E867B /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				283425CBEA350458782DB42FFC865039 /* Products */,
+				42602BDE4A7327C29D56DB55E01C5558 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E64422DCE01453FCB70C94783225797 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF1D2A2782CD0ED631457DB9ECE0D335 /* GraphVerificationCodeView.podspec */,
+				25CB8212B24FA8589E2021216FF120FB /* LICENSE */,
+				BE04579F2A3971BF5ED3D51BCA611091 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		F02FE8C8703BBA442A29EBDF51691925 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				705D3F5668A49BFCDFBBC06B69ABF7A2 /* GraphVerificationCodeView.modulemap */,
+				D67562E2DEB2900A51229A9172A1C3B8 /* GraphVerificationCodeView.xcconfig */,
+				7150A473F7556CA9107C9C6983BEDE95 /* GraphVerificationCodeView-dummy.m */,
+				32B46B46308A6F1DE445ADDC931FCB8A /* GraphVerificationCodeView-prefix.pch */,
+				CAA205D039C35E932D1B565A568998F3 /* GraphVerificationCodeView-umbrella.h */,
+				F7399169A203A4BEB00ED56CF37CD7ED /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GraphVerificationCodeView";
+			sourceTree = "<group>";
+		};
+		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
+				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
+				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
+				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
+				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
+				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
+				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
+				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
+				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
+				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
+				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
+				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
+				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
+				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36EAE5C8DDD915D7E3C19B15E3FD1FC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F578C46BDE447D1E8F5C102CC6ABAA /* GraphVerificationCodeView-umbrella.h in Headers */,
+				60F530A776A78B92EF5E9C7C59027469 /* GraphVerificationCodeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */,
+				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
+				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
+				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
+				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
+				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
+				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
+				387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D847AE942FF60B14C00FF43A8833F4AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CB6421EC2C8A4DB64419C2BDCB9F01 /* Pods-GraphVerificationCodeView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6ECC144946EC682D8F46AD85A7B9BBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5CD6D325414723B66E0DAE55E75501 /* Pods-GraphVerificationCodeView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		018A490D504A5A2667162A7001B12FA3 /* GraphVerificationCodeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226A10C063C1B1FFF8AF221A47ECAC7 /* Build configuration list for PBXNativeTarget "GraphVerificationCodeView" */;
+			buildPhases = (
+				36EAE5C8DDD915D7E3C19B15E3FD1FC0 /* Headers */,
+				1576D034232F10F71E8A316F563191D3 /* Sources */,
+				04555F40152B335B5B0D26D0AD612474 /* Frameworks */,
+				E368743A02CD59E890717EBEDBE4EC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphVerificationCodeView;
+			productName = GraphVerificationCodeView;
+			productReference = 1B39460F9711CE67A3A25F70AE94BDEA /* GraphVerificationCodeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43BE7116F736A8DCF81EBB2556F78980 /* Pods-GraphVerificationCodeView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7360C6A0FDA68D81C452DB1B4A32451B /* Build configuration list for PBXNativeTarget "Pods-GraphVerificationCodeView_Tests" */;
+			buildPhases = (
+				E6ECC144946EC682D8F46AD85A7B9BBE /* Headers */,
+				65D7545CD73272BB1D597135D3C7E72D /* Sources */,
+				B5F16AA2F59B7AC85C645C2184564615 /* Frameworks */,
+				3464D56230ECC184C3EC33759C31EF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46948C02BE98BCF797C77790BCC4D028 /* PBXTargetDependency */,
+				9D8BC2287A24CA53A595F3D8B89F5E39 /* PBXTargetDependency */,
+			);
+			name = "Pods-GraphVerificationCodeView_Tests";
+			productName = "Pods-GraphVerificationCodeView_Tests";
+			productReference = 2A6C9BAB04D5BEC3F42A3BE196CDB9E1 /* Pods_GraphVerificationCodeView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				8F0D2B8F675F8B99EEC31EDD668A8FAF /* Headers */,
+				533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */,
+				06A086085916D88E8F989A2FD78DFDFB /* Frameworks */,
+				AD4E4321B395852DC07143FDAF5069AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = A26A372AC53ADAB08FBC0DC939607D6B /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98094DB2F6FAACFF27133FCB66C959E6 /* Pods-GraphVerificationCodeView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B01F1B0615343F18DA7FD1BCC562E80 /* Build configuration list for PBXNativeTarget "Pods-GraphVerificationCodeView_Example" */;
+			buildPhases = (
+				D847AE942FF60B14C00FF43A8833F4AD /* Headers */,
+				44C1DD8B51BCA0FE6BDF8D33AB794CCE /* Sources */,
+				061115E6B83379DE2460027BA718D706 /* Frameworks */,
+				54CC1019EA636B357D3C4E2CFBEFF2FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B228E58D0B01074F7DFB2FDA274D88C /* PBXTargetDependency */,
+			);
+			name = "Pods-GraphVerificationCodeView_Example";
+			productName = "Pods-GraphVerificationCodeView_Example";
+			productReference = DE1992F04911B0A983352411DDB1C97B /* Pods_GraphVerificationCodeView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 283425CBEA350458782DB42FFC865039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
+				018A490D504A5A2667162A7001B12FA3 /* GraphVerificationCodeView */,
+				98094DB2F6FAACFF27133FCB66C959E6 /* Pods-GraphVerificationCodeView_Example */,
+				43BE7116F736A8DCF81EBB2556F78980 /* Pods-GraphVerificationCodeView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3464D56230ECC184C3EC33759C31EF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CC1019EA636B357D3C4E2CFBEFF2FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E368743A02CD59E890717EBEDBE4EC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1576D034232F10F71E8A316F563191D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFDA2B8C946226C7555B1FC969ECCCB /* GraphVerificationCodeView-dummy.m in Sources */,
+				85D171420BA71075E7756BB437991770 /* GraphVerificationCodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C1DD8B51BCA0FE6BDF8D33AB794CCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3BDB73B6ADA248E44542CE05805D6A0 /* Pods-GraphVerificationCodeView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533D6D3D5261BC5070BDFEDDCFD1267C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */,
+				6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */,
+				6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */,
+				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
+				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
+				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
+				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
+				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
+				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7545CD73272BB1D597135D3C7E72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147BF0A2E8A06D32C4BBB4CB440C385F /* Pods-GraphVerificationCodeView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46948C02BE98BCF797C77790BCC4D028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */;
+			targetProxy = AE36A58FB0BCE0E06ED2CD9CAA7E7FDE /* PBXContainerItemProxy */;
+		};
+		8B228E58D0B01074F7DFB2FDA274D88C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GraphVerificationCodeView;
+			target = 018A490D504A5A2667162A7001B12FA3 /* GraphVerificationCodeView */;
+			targetProxy = A6F570A86BD2C872C9AC03DD062547C4 /* PBXContainerItemProxy */;
+		};
+		9D8BC2287A24CA53A595F3D8B89F5E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GraphVerificationCodeView_Example";
+			target = 98094DB2F6FAACFF27133FCB66C959E6 /* Pods-GraphVerificationCodeView_Example */;
+			targetProxy = 6146D23339D3A9ED2865FAC91E293B34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E207465ECA7684288927E02A111176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC639821903AAED0C1E183D5D7966BF /* Pods-GraphVerificationCodeView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Example/Pods-GraphVerificationCodeView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42653CED19211D4DE2E1CE995E2CE1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731E143A1753E89B9FDCF64E407BA4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8959257C8D5B7DB9BD0E8968C9F1FA19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD46CF73BE5B7C25CEC3AAED00F261D7 /* Pods-GraphVerificationCodeView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Tests/Pods-GraphVerificationCodeView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4D6339697CFD8FE13C384C8A4589CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D4D0F9254D5E27279DA634837639419 /* Pods-GraphVerificationCodeView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Example/Pods-GraphVerificationCodeView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0A117F90577B2602BF7FD85E478E423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AF67B954AAEF7E4260109AF1EF90B0 /* Pods-GraphVerificationCodeView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GraphVerificationCodeView_Tests/Pods-GraphVerificationCodeView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7C5ADD529116ABC27C9A5FC47D9E5B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67562E2DEB2900A51229A9172A1C3B8 /* GraphVerificationCodeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GraphVerificationCodeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView.modulemap";
+				PRODUCT_MODULE_NAME = GraphVerificationCodeView;
+				PRODUCT_NAME = GraphVerificationCodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E85359B1A893A4AD19D0B9383E8ACAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67562E2DEB2900A51229A9172A1C3B8 /* GraphVerificationCodeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GraphVerificationCodeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GraphVerificationCodeView/GraphVerificationCodeView.modulemap";
+				PRODUCT_MODULE_NAME = GraphVerificationCodeView;
+				PRODUCT_NAME = GraphVerificationCodeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B01F1B0615343F18DA7FD1BCC562E80 /* Build configuration list for PBXNativeTarget "Pods-GraphVerificationCodeView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D6339697CFD8FE13C384C8A4589CED /* Debug */,
+				1E207465ECA7684288927E02A111176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7360C6A0FDA68D81C452DB1B4A32451B /* Build configuration list for PBXNativeTarget "Pods-GraphVerificationCodeView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A117F90577B2602BF7FD85E478E423 /* Debug */,
+				8959257C8D5B7DB9BD0E8968C9F1FA19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE36427AE56C81503352C1A9AF63448 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42653CED19211D4DE2E1CE995E2CE1D2 /* Debug */,
+				731E143A1753E89B9FDCF64E407BA4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226A10C063C1B1FFF8AF221A47ECAC7 /* Build configuration list for PBXNativeTarget "GraphVerificationCodeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C5ADD529116ABC27C9A5FC47D9E5B1 /* Debug */,
+				E85359B1A893A4AD19D0B9383E8ACAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
