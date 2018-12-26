@@ -7,8 +7,11 @@
 //
 
 #import "HMViewController.h"
+#import <GraphVerificationCodeView/GraphVerificationCodeView.h>
 
 @interface HMViewController ()
+@property (weak, nonatomic) IBOutlet GraphVerificationCodeView *verificationView;
+
 
 @end
 

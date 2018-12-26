@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - GraphVerificationCodeView (0.1.0)
+  - GraphVerificationCodeView (0.1.6)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  GraphVerificationCodeView: a103837a10500d4dba2db34c5c3b1dee200fff38
+  GraphVerificationCodeView: cca3a0b0f73b507be448a663af8d5a643118eb42
 
-PODFILE CHECKSUM: 69f1cdea5f49445484478778c4b6723d4b01e1b0
+PODFILE CHECKSUM: 256dbc3d7702716aa0d9cba3d3e5e35e5009717a
 
 COCOAPODS: 1.5.3

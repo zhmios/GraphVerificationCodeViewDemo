@@ -1,6 +1,6 @@
 {
   "name": "GraphVerificationCodeView",
-  "version": "0.1.0",
+  "version": "0.1.6",
   "summary": "使用core graphics 实现图形验证码的自定义view",
   "description": "这是一个使用core graphics 实现图形验证码的自定义view",
   "homepage": "https://github.com/zhmios/GraphVerificationCodeViewDemo",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhmios/GraphVerificationCodeViewDemo.git",
-    "tag": "0.1.0"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"

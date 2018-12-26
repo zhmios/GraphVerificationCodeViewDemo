@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, GraphVerificationCodeType) {
+    GraphVerificationCodeTypeMixture = 0,
+    GraphVerificationCodeTypeNumber,
+    GraphVerificationCodeTypeLetter,
+    GraphVerificationCodeTypeUpperCase,
+    GraphVerificationCodeTypeLowerCase,
+};
 
 IB_DESIGNABLE @interface GraphVerificationCodeView : UIView
 
@@ -16,6 +23,13 @@ IB_DESIGNABLE @interface GraphVerificationCodeView : UIView
  */
 
 @property(nonatomic,assign)IBInspectable NSInteger count;
+/**
+ 数据源类型
+ */
+@property(nonatomic,assign)IBInspectable NSInteger showType;
+
+@property(nonatomic,assign)GraphVerificationCodeType type;
+
 
 /**
  验证码
