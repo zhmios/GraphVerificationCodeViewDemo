@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GraphVerificationCodeView'
-  s.version          = '0.1.5'
+  s.version          = '0.1.0'
   s.summary          = '使用core graphics 实现图形验证码的自定义view'
 
 # This description is used to generate tags and improve search results.
