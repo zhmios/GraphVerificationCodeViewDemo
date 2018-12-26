@@ -132,7 +132,7 @@
     if (count > 0) {
        self.count = count;
     }
-    self.textMinEdge = 1.0;
+   
     [self makeDataSource];
     self.backgroundColor = NNRandomColor;
     self.userInteractionEnabled = YES;
