@@ -202,8 +202,12 @@
         NSString *itemText = self.codeArr[i];
         CGAffineTransform matrix =CGAffineTransformMake(1, 0, tanf(5 * (CGFloat)M_PI / 180), 1, 0, 0);
         //倾斜角度
-        UIFontDescriptor *desc = [ UIFontDescriptor fontDescriptorWithName :[UIFont systemFontOfSize:20].fontName matrix :matrix];
-        UIFont *itemFont = [UIFont fontWithDescriptor:desc size:20];
+        CGFloat textSize = 20;
+        if (self.textSize > 0) {
+            textSize = self.textSize;
+        }
+        UIFontDescriptor *desc = [ UIFontDescriptor fontDescriptorWithName :[UIFont systemFontOfSize:textSize].fontName matrix :matrix];
+        UIFont *itemFont = [UIFont fontWithDescriptor:desc size:textSize];
         CGSize codeSize = [itemText sizeWithAttributes:@{NSFontAttributeName:itemFont}];
         
         CGRect textRect = CGRectMake(i * w / self.count + arc4random() % (int)(w / self.count + 1 - codeSize.width), arc4random() % (int)(h + 1 - codeSize.height), codeSize.width, codeSize.height);

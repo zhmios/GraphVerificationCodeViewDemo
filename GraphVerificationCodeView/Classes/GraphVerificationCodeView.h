@@ -28,6 +28,8 @@ IB_DESIGNABLE @interface GraphVerificationCodeView : UIView
  */
 @property(nonatomic,assign)IBInspectable NSInteger showType;
 
+@property(nonatomic,assign)IBInspectable CGFloat textSize;
+
 @property(nonatomic,assign)GraphVerificationCodeType type;
 
 
