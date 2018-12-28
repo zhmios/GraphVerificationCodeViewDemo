@@ -23,6 +23,10 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)changeCodeBtnPress:(id)sender {
+    [self.verificationView changeVerificationCode];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -41,12 +41,22 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="textSize">
                                         <real key="value" value="0.0"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isTapChange" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IS3-qT-E7H">
+                                <rect key="frame" x="143" y="431" width="89" height="30"/>
+                                <state key="normal" title="change code"/>
+                                <connections>
+                                    <action selector="changeCodeBtnPress:" destination="whP-gf-Uak" eventType="touchUpInside" id="WZZ-bI-Adc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="IS3-qT-E7H" firstAttribute="top" secondItem="JsW-43-fyj" secondAttribute="bottom" constant="80" id="A07-3j-Ajl"/>
                             <constraint firstItem="JsW-43-fyj" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="hAw-7P-1Ra"/>
+                            <constraint firstItem="IS3-qT-E7H" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="jUK-E7-2bv"/>
                             <constraint firstItem="JsW-43-fyj" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="ouc-vP-4cv"/>
                         </constraints>
                     </view>

@@ -21,6 +21,7 @@
 @property (nonatomic, strong) NSArray *numbers;
 @property (nonatomic, strong) NSArray *upperCase;
 @property (nonatomic, strong) NSArray *lowerCase;
+@property (nonatomic, strong) UITapGestureRecognizer *tap;
 
 @end
 
@@ -135,17 +136,47 @@
     [self makeDataSource];
     self.backgroundColor = NNRandomColor;
     self.userInteractionEnabled = YES;
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
-    [self addGestureRecognizer:tap];
+    self.isTapChange = YES;
+    [self makeTapGesture];
+   
 }
 
 - (void)tap:(UITapGestureRecognizer *)tap{
+    
+    [self changeVerificationCode];
+    
+}
+
+- (void)changeVerificationCode{
     
     if (self.codeArr.count > 0) {
         [self.codeArr removeAllObjects];
     }
     [self generateCode];
     [self setNeedsDisplayInRect:self.bounds];
+    
+}
+
+- (void)setIsTapChange:(BOOL)isTapChange{
+    _isTapChange = isTapChange;
+    if (self.isTapChange) {
+        [self makeTapGesture];
+    }else{
+        if (self.tap != nil) {
+            [self removeGestureRecognizer:self.tap];
+            self.tap = nil;
+        }
+    }
+    
+}
+
+- (void)makeTapGesture{
+    if (self.tap != nil) {
+        [self removeGestureRecognizer:self.tap];
+        self.tap = nil;
+    }
+    self.tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
+    [self addGestureRecognizer:self.tap];
     
 }
 

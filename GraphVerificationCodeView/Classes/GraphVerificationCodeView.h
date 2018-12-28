@@ -27,8 +27,15 @@ IB_DESIGNABLE @interface GraphVerificationCodeView : UIView
  数据源类型
  */
 @property(nonatomic,assign)IBInspectable NSInteger showType;
-
+/**
+ 文字不能过大否则会报错
+ */
 @property(nonatomic,assign)IBInspectable CGFloat textSize;
+
+/**
+ 默认为YES
+ */
+@property(nonatomic,assign)IBInspectable BOOL isTapChange;
 
 @property(nonatomic,assign)GraphVerificationCodeType type;
 
@@ -39,6 +46,8 @@ IB_DESIGNABLE @interface GraphVerificationCodeView : UIView
 @property(nonatomic,strong)NSString *code;
 
 - (instancetype)initWithFrame:(CGRect)frame withCount:(NSInteger)count;
+
+- (void)changeVerificationCode;
 
 @end
 
